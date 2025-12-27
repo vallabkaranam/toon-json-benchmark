@@ -1,0 +1,4275 @@
+[
+  {
+    "id": "c9e48e8c-25c6-4c45-863d-04ee541c7a86",
+    "timestamp": "2025-12-20T16:19:18.312720+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "payment",
+    "status": "failed",
+    "severity": 3,
+    "source": "us-west-2/instance-9850",
+    "metadata": {
+      "request_id": "req-402adf9c",
+      "user_id": "usr-3858",
+      "region": "us-east-1",
+      "retry_count": 5,
+      "latency_ms": 4333.57,
+      "tags": [
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "0c6b7074-ab10-4c9b-9168-2e09f1f7d904",
+    "timestamp": "2025-12-20T17:21:18.314229+00:00",
+    "service": "web-server",
+    "env": "dev",
+    "type": "payment",
+    "status": "warning",
+    "severity": 3,
+    "source": "us-west-2/instance-2113",
+    "metadata": {
+      "request_id": "req-b509109b",
+      "user_id": "usr-3474",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 1101.41,
+      "tags": []
+    },
+    "message": "Operation failed for dev environment."
+  },
+  {
+    "id": "0e0630cd-996d-4c50-bc04-a168652ffb49",
+    "timestamp": "2025-12-20T17:44:05.312856+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "system",
+    "status": "failed",
+    "severity": 3,
+    "source": "us-west-2/instance-3248",
+    "metadata": {
+      "request_id": "req-c3a00c6f",
+      "user_id": "usr-5186",
+      "region": "eu-central-1",
+      "retry_count": 2,
+      "latency_ms": 608.72,
+      "tags": [
+        "auth",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "b3957a98-2320-4ff5-b538-f96c033e02f7",
+    "timestamp": "2025-12-20T18:48:06.314740+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 4,
+    "source": "eu-central-1/instance-9568",
+    "metadata": {
+      "request_id": "req-8468b74d",
+      "user_id": "usr-5247",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 1865.63,
+      "tags": [
+        "auth"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "694d7b00-8d38-4327-883f-13c601b158e9",
+    "timestamp": "2025-12-20T18:56:51.314243+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "job",
+    "status": "failed",
+    "severity": 4,
+    "source": "eu-central-1/instance-9777",
+    "metadata": {
+      "request_id": "req-fa3c1628",
+      "user_id": "usr-5697",
+      "region": "us-east-1",
+      "retry_count": 4,
+      "latency_ms": 4067.65,
+      "tags": [
+        "auth",
+        "critical",
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "8d03c91e-4f8d-4238-a88b-78b5b5b453ca",
+    "timestamp": "2025-12-20T19:28:43.312512+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 4,
+    "source": "us-east-1/instance-4681",
+    "metadata": {
+      "request_id": "req-fe049059",
+      "user_id": "usr-2858",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 4735.83,
+      "tags": [
+        "auth",
+        "critical",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "4b7f2183-088d-4d82-9883-e3f8cc9803de",
+    "timestamp": "2025-12-20T21:20:38.315025+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "system",
+    "status": "failed",
+    "severity": 2,
+    "source": "us-east-1/instance-2215",
+    "metadata": {
+      "request_id": "req-5780be17",
+      "user_id": "usr-3787",
+      "region": "ap-northeast-1",
+      "retry_count": 1,
+      "latency_ms": 3662.61,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "a65f7b8a-dbb4-4021-bdde-64afa75b395a",
+    "timestamp": "2025-12-21T00:43:28.314270+00:00",
+    "service": "auth-service",
+    "env": "dev",
+    "type": "network",
+    "status": "success",
+    "severity": 4,
+    "source": "ap-northeast-1/instance-7179",
+    "metadata": {
+      "request_id": "req-8d7dd772",
+      "user_id": "usr-8798",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 3187.37,
+      "tags": []
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "6511e61a-1436-45f5-8c81-926079ec533c",
+    "timestamp": "2025-12-21T01:36:40.315094+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "us-west-2/instance-2970",
+    "metadata": {
+      "request_id": "req-f3025d16",
+      "user_id": "usr-8357",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 4745.82,
+      "tags": [
+        "batch",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "ef158d5b-2d00-4d05-966d-4627e1dace6a",
+    "timestamp": "2025-12-21T02:04:50.313981+00:00",
+    "service": "web-server",
+    "env": "staging",
+    "type": "network",
+    "status": "warning",
+    "severity": 1,
+    "source": "us-west-2/instance-5742",
+    "metadata": {
+      "request_id": "req-e0723d96",
+      "user_id": "usr-1613",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 1498.98,
+      "tags": [
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "f23e323d-0b9b-4934-a3c8-6d301dde7969",
+    "timestamp": "2025-12-21T02:20:04.312679+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "network",
+    "status": "failed",
+    "severity": 3,
+    "source": "us-east-1/instance-2592",
+    "metadata": {
+      "request_id": "req-3c1bdacc",
+      "user_id": "usr-9807",
+      "region": "us-west-2",
+      "retry_count": 3,
+      "latency_ms": 2273.68,
+      "tags": [
+        "critical",
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "9adf4709-ac75-4344-a08e-149e44b9e602",
+    "timestamp": "2025-12-21T03:00:53.314173+00:00",
+    "service": "auth-service",
+    "env": "staging",
+    "type": "payment",
+    "status": "success",
+    "severity": 4,
+    "source": "us-west-2/instance-8854",
+    "metadata": {
+      "request_id": "req-3579c143",
+      "user_id": "usr-6455",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 4785.53,
+      "tags": [
+        "auth"
+      ]
+    },
+    "message": "Operation completed for staging environment."
+  },
+  {
+    "id": "00a85473-8242-4912-bda3-c1623a78b64a",
+    "timestamp": "2025-12-21T04:19:22.314766+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "payment",
+    "status": "success",
+    "severity": 4,
+    "source": "us-east-1/instance-8729",
+    "metadata": {
+      "request_id": "req-5d2d904f",
+      "user_id": "usr-7274",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 903.02,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "7603c36c-f139-4e3c-8aee-25571f5df912",
+    "timestamp": "2025-12-21T06:14:42.314889+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 5,
+    "source": "ap-northeast-1/instance-7471",
+    "metadata": {
+      "request_id": "req-7f0223bc",
+      "user_id": "usr-1483",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 3419.23,
+      "tags": [
+        "auth",
+        "infra",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "d89a40c0-e87d-4c78-a7c4-21c740497b71",
+    "timestamp": "2025-12-21T06:17:31.312088+00:00",
+    "service": "auth-service",
+    "env": "staging",
+    "type": "network",
+    "status": "success",
+    "severity": 3,
+    "source": "eu-central-1/instance-1722",
+    "metadata": {
+      "request_id": "req-00e85ece",
+      "user_id": "usr-6464",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 3189.2,
+      "tags": [
+        "batch",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for staging environment."
+  },
+  {
+    "id": "d7c524a5-5304-417f-af42-e12f3838b326",
+    "timestamp": "2025-12-21T07:47:20.311881+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 3,
+    "source": "eu-central-1/instance-7572",
+    "metadata": {
+      "request_id": "req-448aaa9e",
+      "user_id": "usr-2084",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 4566.55,
+      "tags": [
+        "batch",
+        "critical"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "905c7bdd-74f0-4eae-aa59-43ce836435e3",
+    "timestamp": "2025-12-21T08:18:46.314064+00:00",
+    "service": "notification-service",
+    "env": "staging",
+    "type": "network",
+    "status": "success",
+    "severity": 4,
+    "source": "eu-central-1/instance-1356",
+    "metadata": {
+      "request_id": "req-655ce508",
+      "user_id": "usr-5169",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 3731.56,
+      "tags": [
+        "auth",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "34fa32b6-d043-4e4c-b4e5-0699c8ebe27a",
+    "timestamp": "2025-12-21T08:47:06.314565+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "system",
+    "status": "warning",
+    "severity": 3,
+    "source": "eu-central-1/instance-9827",
+    "metadata": {
+      "request_id": "req-2b1ac76c",
+      "user_id": "usr-6302",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 1453.77,
+      "tags": [
+        "batch",
+        "critical",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "55ab946d-a5b5-4dc2-a181-c85eca0ac6ac",
+    "timestamp": "2025-12-21T10:41:38.312962+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-5655",
+    "metadata": {
+      "request_id": "req-4082cbb9",
+      "user_id": "usr-3463",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 416.69,
+      "tags": [
+        "auth",
+        "batch",
+        "infra"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "9620bee6-6406-4ace-93a5-e8508950ddd6",
+    "timestamp": "2025-12-21T10:45:11.314726+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 2,
+    "source": "us-west-2/instance-1948",
+    "metadata": {
+      "request_id": "req-3e9639ba",
+      "user_id": "usr-2412",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 588.77,
+      "tags": [
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "932cae01-d2c6-4ee4-a8d0-a2a8c4e7f7dd",
+    "timestamp": "2025-12-21T12:58:38.313748+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "system",
+    "status": "warning",
+    "severity": 1,
+    "source": "us-east-1/instance-8372",
+    "metadata": {
+      "request_id": "req-7740d831",
+      "user_id": "usr-9476",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 650.39,
+      "tags": [
+        "batch",
+        "critical",
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "2784378f-f84f-46b3-a79f-bfafdef57689",
+    "timestamp": "2025-12-21T13:17:28.312567+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "system",
+    "status": "warning",
+    "severity": 1,
+    "source": "eu-central-1/instance-7512",
+    "metadata": {
+      "request_id": "req-a65bb1f2",
+      "user_id": "usr-2315",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 4263.18,
+      "tags": [
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "dfde4fbf-3ff3-40bf-b66e-cb15474ebc19",
+    "timestamp": "2025-12-21T13:27:11.312006+00:00",
+    "service": "web-server",
+    "env": "staging",
+    "type": "job",
+    "status": "success",
+    "severity": 2,
+    "source": "us-east-1/instance-1828",
+    "metadata": {
+      "request_id": "req-a6f2f7b8",
+      "user_id": "usr-9856",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 4845.29,
+      "tags": [
+        "critical",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for staging environment."
+  },
+  {
+    "id": "f26b4776-913e-4de2-a0c5-3cb83da9c2a9",
+    "timestamp": "2025-12-21T14:26:07.311945+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "network",
+    "status": "warning",
+    "severity": 4,
+    "source": "us-east-1/instance-9727",
+    "metadata": {
+      "request_id": "req-c40db9b4",
+      "user_id": "usr-3060",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 3302.16,
+      "tags": [
+        "auth",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "12d15585-b68e-47fa-bf17-5534cc4d5819",
+    "timestamp": "2025-12-21T15:23:28.314329+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "payment",
+    "status": "success",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-3527",
+    "metadata": {
+      "request_id": "req-bd5a0c9e",
+      "user_id": "usr-7383",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 1809.89,
+      "tags": [
+        "auth",
+        "batch",
+        "infra"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "13a4a492-497d-416d-94ea-120a5e659654",
+    "timestamp": "2025-12-21T17:47:47.312928+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-8581",
+    "metadata": {
+      "request_id": "req-949077c2",
+      "user_id": "usr-1672",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 4546.16,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "112fa612-7969-4ed2-ac48-bf55afd380c4",
+    "timestamp": "2025-12-21T18:04:01.312785+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-2582",
+    "metadata": {
+      "request_id": "req-be9d61ee",
+      "user_id": "usr-7105",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2786.29,
+      "tags": [
+        "infra",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "c4d598f7-e14f-4093-8b6a-d0c7a2356dd4",
+    "timestamp": "2025-12-21T18:36:41.314592+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "eu-central-1/instance-7046",
+    "metadata": {
+      "request_id": "req-7466ef02",
+      "user_id": "usr-8996",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 2913.96,
+      "tags": [
+        "auth",
+        "critical",
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "519554e3-0737-4c86-b97b-5f515ffa46ef",
+    "timestamp": "2025-12-21T20:21:21.313046+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "payment",
+    "status": "success",
+    "severity": 2,
+    "source": "us-west-2/instance-1627",
+    "metadata": {
+      "request_id": "req-4970ed9a",
+      "user_id": "usr-8740",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 3796.62,
+      "tags": []
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "952a5345-9682-49ff-910c-4cb725f06b0a",
+    "timestamp": "2025-12-21T20:40:56.315123+00:00",
+    "service": "auth-service",
+    "env": "staging",
+    "type": "job",
+    "status": "failed",
+    "severity": 3,
+    "source": "us-east-1/instance-5687",
+    "metadata": {
+      "request_id": "req-de12dbf1",
+      "user_id": "usr-9775",
+      "region": "eu-central-1",
+      "retry_count": 3,
+      "latency_ms": 1328.04,
+      "tags": [
+        "auth",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "4ca415ea-8dfa-4a56-912d-bc9aaaf91531",
+    "timestamp": "2025-12-21T21:40:03.312074+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "system",
+    "status": "warning",
+    "severity": 4,
+    "source": "us-east-1/instance-2753",
+    "metadata": {
+      "request_id": "req-be0f051b",
+      "user_id": "usr-3546",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 1415.96,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "c521bf2d-dc45-4539-803f-3538e4855aa1",
+    "timestamp": "2025-12-21T22:32:29.312211+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "payment",
+    "status": "failed",
+    "severity": 3,
+    "source": "us-west-2/instance-9486",
+    "metadata": {
+      "request_id": "req-76ecbdd6",
+      "user_id": "usr-1822",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2287.74,
+      "tags": [
+        "auth",
+        "critical",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "5d71a898-6497-4593-892e-8c93d105c8d6",
+    "timestamp": "2025-12-22T00:40:05.314398+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "payment",
+    "status": "warning",
+    "severity": 4,
+    "source": "us-west-2/instance-1440",
+    "metadata": {
+      "request_id": "req-f3f81c31",
+      "user_id": "usr-8563",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2197.89,
+      "tags": [
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "793bed1b-14f9-4394-ba20-74034ab427e3",
+    "timestamp": "2025-12-22T01:08:24.315065+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 1,
+    "source": "ap-northeast-1/instance-9013",
+    "metadata": {
+      "request_id": "req-e516b0d4",
+      "user_id": "usr-5341",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 3212.91,
+      "tags": [
+        "critical"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "3b048a8b-405b-4dc9-8e7e-d827455ac762",
+    "timestamp": "2025-12-22T02:38:21.312376+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 5,
+    "source": "us-east-1/instance-9779",
+    "metadata": {
+      "request_id": "req-f36cb62b",
+      "user_id": "usr-4033",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 1089.76,
+      "tags": [
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "d9acd158-4d34-45c5-85c1-4eb4b27b3d90",
+    "timestamp": "2025-12-22T02:45:20.312320+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "failed",
+    "severity": 3,
+    "source": "eu-central-1/instance-9728",
+    "metadata": {
+      "request_id": "req-6daa2e68",
+      "user_id": "usr-7071",
+      "region": "us-east-1",
+      "retry_count": 4,
+      "latency_ms": 3241.24,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "f7dc67e0-3097-4b2b-86a0-2a9b65ec7acd",
+    "timestamp": "2025-12-22T03:04:38.312706+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "auth",
+    "status": "warning",
+    "severity": 3,
+    "source": "us-west-2/instance-1349",
+    "metadata": {
+      "request_id": "req-0cf2b69b",
+      "user_id": "usr-6464",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 4944.22,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "51045a16-ef15-4b72-9c70-ee97fca45567",
+    "timestamp": "2025-12-22T05:56:19.314698+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-6986",
+    "metadata": {
+      "request_id": "req-8bde005b",
+      "user_id": "usr-3830",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 4772.72,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "dc08bf29-d2d3-4488-90c3-00186e3cdd4f",
+    "timestamp": "2025-12-22T07:08:41.314384+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "system",
+    "status": "failed",
+    "severity": 4,
+    "source": "us-west-2/instance-8848",
+    "metadata": {
+      "request_id": "req-506e50c7",
+      "user_id": "usr-3910",
+      "region": "ap-northeast-1",
+      "retry_count": 2,
+      "latency_ms": 1464.33,
+      "tags": [
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "ad81f8bd-4029-43ec-9ef2-b93e30ac7d7b",
+    "timestamp": "2025-12-22T07:20:08.312637+00:00",
+    "service": "auth-service",
+    "env": "staging",
+    "type": "auth",
+    "status": "success",
+    "severity": 4,
+    "source": "eu-central-1/instance-8222",
+    "metadata": {
+      "request_id": "req-088a93ec",
+      "user_id": "usr-6977",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 459.77,
+      "tags": [
+        "critical"
+      ]
+    },
+    "message": "Operation failed for staging environment."
+  },
+  {
+    "id": "cac4d0eb-3373-430e-bc31-a5971f119c0f",
+    "timestamp": "2025-12-22T07:56:47.313733+00:00",
+    "service": "payment-service",
+    "env": "staging",
+    "type": "network",
+    "status": "warning",
+    "severity": 3,
+    "source": "us-east-1/instance-6912",
+    "metadata": {
+      "request_id": "req-8dd4595b",
+      "user_id": "usr-7044",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 4020.27,
+      "tags": [
+        "batch",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "2f4dd219-186b-4880-ab54-5a15669d01ff",
+    "timestamp": "2025-12-22T08:27:07.314009+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "system",
+    "status": "warning",
+    "severity": 4,
+    "source": "us-west-2/instance-1111",
+    "metadata": {
+      "request_id": "req-42c2d2eb",
+      "user_id": "usr-7284",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2239.21,
+      "tags": [
+        "auth",
+        "batch",
+        "infra"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "3defa849-9336-4f7e-83ef-a9f3a1c7cc8a",
+    "timestamp": "2025-12-22T09:18:56.313073+00:00",
+    "service": "data-pipeline",
+    "env": "staging",
+    "type": "network",
+    "status": "success",
+    "severity": 2,
+    "source": "us-east-1/instance-6780",
+    "metadata": {
+      "request_id": "req-3d959e3f",
+      "user_id": "usr-7825",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 3325.21,
+      "tags": [
+        "auth",
+        "batch",
+        "critical"
+      ]
+    },
+    "message": "Operation completed for staging environment."
+  },
+  {
+    "id": "e21342b0-f1ee-4ba3-9343-2e611ca3c448",
+    "timestamp": "2025-12-22T10:54:39.312101+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 4,
+    "source": "eu-central-1/instance-3426",
+    "metadata": {
+      "request_id": "req-6e068097",
+      "user_id": "usr-3088",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 1548.21,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "40afbf3f-3df5-4967-8d86-70bda2224f96",
+    "timestamp": "2025-12-22T12:23:35.314412+00:00",
+    "service": "web-server",
+    "env": "staging",
+    "type": "network",
+    "status": "success",
+    "severity": 4,
+    "source": "us-east-1/instance-8357",
+    "metadata": {
+      "request_id": "req-fd9e8e20",
+      "user_id": "usr-8851",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 2676.49,
+      "tags": [
+        "critical",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "9780c215-2b2b-48e9-a417-c09380a8a23d",
+    "timestamp": "2025-12-22T12:24:29.313777+00:00",
+    "service": "payment-service",
+    "env": "dev",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "eu-central-1/instance-1674",
+    "metadata": {
+      "request_id": "req-d342af08",
+      "user_id": "usr-1464",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 236.85,
+      "tags": []
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "722764e6-8c41-461b-a827-a1b9d4a02e53",
+    "timestamp": "2025-12-22T13:51:14.312225+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "network",
+    "status": "warning",
+    "severity": 3,
+    "source": "eu-central-1/instance-5050",
+    "metadata": {
+      "request_id": "req-d701410d",
+      "user_id": "usr-5543",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 3137.47,
+      "tags": [
+        "batch",
+        "critical",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "c241330b-01a9-471f-9e8a-774bcf36d58b",
+    "timestamp": "2025-12-22T13:59:59.311824+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 3,
+    "source": "eu-central-1/instance-3547",
+    "metadata": {
+      "request_id": "req-371ecd7b",
+      "user_id": "usr-6514",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 472.8,
+      "tags": [
+        "edge",
+        "infra",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "8d49fe3f-2ca8-4783-8418-2d353e711433",
+    "timestamp": "2025-12-22T14:08:19.314466+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "job",
+    "status": "failed",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-8570",
+    "metadata": {
+      "request_id": "req-3b5ae288",
+      "user_id": "usr-7636",
+      "region": "us-west-2",
+      "retry_count": 1,
+      "latency_ms": 3205.99,
+      "tags": [
+        "critical"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "db946570-1ac7-4ec0-ab8d-deb45230dfbd",
+    "timestamp": "2025-12-22T14:20:22.312485+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "network",
+    "status": "failed",
+    "severity": 5,
+    "source": "ap-northeast-1/instance-5722",
+    "metadata": {
+      "request_id": "req-a99f1318",
+      "user_id": "usr-7561",
+      "region": "us-east-1",
+      "retry_count": 3,
+      "latency_ms": 449.42,
+      "tags": [
+        "critical",
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "2a26f770-4ddb-4b36-a72c-058884a2576c",
+    "timestamp": "2025-12-22T14:40:19.313764+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "payment",
+    "status": "success",
+    "severity": 5,
+    "source": "eu-central-1/instance-9501",
+    "metadata": {
+      "request_id": "req-e519dd7e",
+      "user_id": "usr-5653",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 1260.52,
+      "tags": [
+        "auth",
+        "batch",
+        "critical"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "f75d599f-6b2d-4b09-8707-9ad480be7e35",
+    "timestamp": "2025-12-22T14:41:55.313020+00:00",
+    "service": "payment-service",
+    "env": "dev",
+    "type": "job",
+    "status": "success",
+    "severity": 4,
+    "source": "us-west-2/instance-5096",
+    "metadata": {
+      "request_id": "req-0d5ba7cd",
+      "user_id": "usr-8873",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 2777.16,
+      "tags": [
+        "critical",
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation completed for dev environment."
+  },
+  {
+    "id": "aa1d3fc6-5f31-473d-9519-830c40198303",
+    "timestamp": "2025-12-22T15:42:30.314632+00:00",
+    "service": "auth-service",
+    "env": "dev",
+    "type": "network",
+    "status": "warning",
+    "severity": 2,
+    "source": "eu-central-1/instance-4836",
+    "metadata": {
+      "request_id": "req-6de21429",
+      "user_id": "usr-2494",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 15.42,
+      "tags": [
+        "auth",
+        "infra"
+      ]
+    },
+    "message": "Operation failed for dev environment."
+  },
+  {
+    "id": "6b6e64c5-bb8a-4843-b02f-31e562ccc604",
+    "timestamp": "2025-12-22T15:56:43.315012+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "network",
+    "status": "failed",
+    "severity": 4,
+    "source": "ap-northeast-1/instance-6754",
+    "metadata": {
+      "request_id": "req-8bc83a02",
+      "user_id": "usr-7149",
+      "region": "us-east-1",
+      "retry_count": 3,
+      "latency_ms": 3945.76,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "73b911d8-12f5-431a-9a52-d2ee22bf18f5",
+    "timestamp": "2025-12-22T17:47:08.313717+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "auth",
+    "status": "warning",
+    "severity": 3,
+    "source": "eu-central-1/instance-6692",
+    "metadata": {
+      "request_id": "req-b5a47200",
+      "user_id": "usr-2063",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 4457.75,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "3d67cde9-2834-44c0-94c8-b3b4a911d192",
+    "timestamp": "2025-12-22T18:07:21.312430+00:00",
+    "service": "notification-service",
+    "env": "dev",
+    "type": "auth",
+    "status": "success",
+    "severity": 4,
+    "source": "us-west-2/instance-1043",
+    "metadata": {
+      "request_id": "req-68949b8d",
+      "user_id": "usr-8381",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 1463.38,
+      "tags": [
+        "infra"
+      ]
+    },
+    "message": "Operation completed for dev environment."
+  },
+  {
+    "id": "d0421dfa-56ab-487a-8bc7-8e815a304528",
+    "timestamp": "2025-12-22T18:29:39.313100+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "network",
+    "status": "failed",
+    "severity": 4,
+    "source": "us-west-2/instance-3209",
+    "metadata": {
+      "request_id": "req-10275b53",
+      "user_id": "usr-8498",
+      "region": "us-east-1",
+      "retry_count": 2,
+      "latency_ms": 1015.94,
+      "tags": [
+        "auth",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "500e15c0-b89b-4f7f-93e3-4c35ef0a573d",
+    "timestamp": "2025-12-22T22:47:20.313823+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 5,
+    "source": "ap-northeast-1/instance-9171",
+    "metadata": {
+      "request_id": "req-e10b1a47",
+      "user_id": "usr-6055",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 125.65,
+      "tags": [
+        "critical",
+        "infra",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "43b9da13-ec85-4f37-bbc1-a987aff8754d",
+    "timestamp": "2025-12-23T01:06:53.312443+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 4,
+    "source": "us-west-2/instance-3441",
+    "metadata": {
+      "request_id": "req-e88da719",
+      "user_id": "usr-5352",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 366.34,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "ce7ae7f6-3982-4cff-8f77-a665ac3c5640",
+    "timestamp": "2025-12-23T01:29:47.312197+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 3,
+    "source": "us-east-1/instance-5011",
+    "metadata": {
+      "request_id": "req-fbe33b24",
+      "user_id": "usr-8784",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 2282.53,
+      "tags": [
+        "auth",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "3f4df561-f319-4125-87f1-94f9c1156d6d",
+    "timestamp": "2025-12-23T01:33:49.312292+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 5,
+    "source": "us-west-2/instance-4908",
+    "metadata": {
+      "request_id": "req-20500494",
+      "user_id": "usr-8758",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 2824.21,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "54ec84ce-002c-4b25-ba5d-7c8286c5547c",
+    "timestamp": "2025-12-23T02:10:35.314958+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 2,
+    "source": "us-west-2/instance-6301",
+    "metadata": {
+      "request_id": "req-0f3f0f48",
+      "user_id": "usr-1359",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2937.18,
+      "tags": [
+        "auth"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "c534ca08-f6f2-4d1c-9bb8-b9c8893259f3",
+    "timestamp": "2025-12-23T03:58:27.314848+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-5341",
+    "metadata": {
+      "request_id": "req-da3c45ca",
+      "user_id": "usr-2964",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 796.5,
+      "tags": [
+        "auth",
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "49732d6c-4dca-4fb7-801a-9a8bd56f0350",
+    "timestamp": "2025-12-23T04:42:57.312184+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "job",
+    "status": "warning",
+    "severity": 3,
+    "source": "eu-central-1/instance-8618",
+    "metadata": {
+      "request_id": "req-7118e364",
+      "user_id": "usr-8244",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2560.76,
+      "tags": [
+        "batch",
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "6dfd171a-f7d7-465d-b7c3-b3c965d0b517",
+    "timestamp": "2025-12-23T05:12:07.314605+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "system",
+    "status": "warning",
+    "severity": 3,
+    "source": "eu-central-1/instance-5646",
+    "metadata": {
+      "request_id": "req-56771f36",
+      "user_id": "usr-9967",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2835.05,
+      "tags": [
+        "auth",
+        "batch"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "7cd0129d-2e8d-4e87-9334-20e6d9d80b8d",
+    "timestamp": "2025-12-23T05:16:48.312349+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 4,
+    "source": "eu-central-1/instance-5581",
+    "metadata": {
+      "request_id": "req-e15ca666",
+      "user_id": "usr-5526",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 2587.97,
+      "tags": [
+        "auth",
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "90019ed4-0bb4-41e7-a9f7-53f1501ba851",
+    "timestamp": "2025-12-23T07:56:47.314202+00:00",
+    "service": "payment-service",
+    "env": "staging",
+    "type": "auth",
+    "status": "success",
+    "severity": 4,
+    "source": "eu-central-1/instance-7841",
+    "metadata": {
+      "request_id": "req-4b91b8cb",
+      "user_id": "usr-3497",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 1656.03,
+      "tags": [
+        "critical",
+        "infra",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for staging environment."
+  },
+  {
+    "id": "c7ecfe71-d493-47fc-8fc9-8d2e030f9be9",
+    "timestamp": "2025-12-23T08:14:31.314875+00:00",
+    "service": "payment-service",
+    "env": "staging",
+    "type": "payment",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-7098",
+    "metadata": {
+      "request_id": "req-afb06406",
+      "user_id": "usr-2376",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 4587.97,
+      "tags": [
+        "auth"
+      ]
+    },
+    "message": "Operation completed for staging environment."
+  },
+  {
+    "id": "6a8a616f-c3b2-40d0-8edd-dfcd1e52d770",
+    "timestamp": "2025-12-23T09:13:55.312416+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "network",
+    "status": "failed",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-8253",
+    "metadata": {
+      "request_id": "req-4c1f55ab",
+      "user_id": "usr-8025",
+      "region": "eu-central-1",
+      "retry_count": 4,
+      "latency_ms": 3108.93,
+      "tags": [
+        "auth",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "0f1259e0-a18f-46b6-b535-106e122c9a56",
+    "timestamp": "2025-12-23T10:10:47.311977+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 3,
+    "source": "eu-central-1/instance-2160",
+    "metadata": {
+      "request_id": "req-839fbc50",
+      "user_id": "usr-4899",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 3348.2,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "d2c7bffb-6118-433b-882c-cd1e6c93a791",
+    "timestamp": "2025-12-23T10:23:25.314104+00:00",
+    "service": "payment-service",
+    "env": "dev",
+    "type": "network",
+    "status": "failed",
+    "severity": 4,
+    "source": "eu-central-1/instance-3541",
+    "metadata": {
+      "request_id": "req-4690fb15",
+      "user_id": "usr-4088",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 4049.3,
+      "tags": [
+        "batch",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for dev environment."
+  },
+  {
+    "id": "0ae4ac11-eb4d-4f42-8735-70a2e5110961",
+    "timestamp": "2025-12-23T10:25:12.314283+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-5441",
+    "metadata": {
+      "request_id": "req-0beb7c34",
+      "user_id": "usr-2218",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 4497.57,
+      "tags": [
+        "auth",
+        "batch"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "ebd8a3b1-0b3d-4c36-97d0-981047a2a10b",
+    "timestamp": "2025-12-23T10:55:01.314820+00:00",
+    "service": "notification-service",
+    "env": "dev",
+    "type": "network",
+    "status": "success",
+    "severity": 5,
+    "source": "eu-central-1/instance-8511",
+    "metadata": {
+      "request_id": "req-f97c6c3c",
+      "user_id": "usr-2391",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 2532.08,
+      "tags": [
+        "critical"
+      ]
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "95804c2a-c44f-44b8-9b80-b8d18788dfed",
+    "timestamp": "2025-12-23T11:17:33.314930+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 1,
+    "source": "us-west-2/instance-4951",
+    "metadata": {
+      "request_id": "req-443b1d0f",
+      "user_id": "usr-9743",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 3822.61,
+      "tags": [
+        "auth",
+        "edge"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "b1594847-5c0b-4b10-a757-cb1042f525b9",
+    "timestamp": "2025-12-23T12:19:26.314023+00:00",
+    "service": "auth-service",
+    "env": "dev",
+    "type": "auth",
+    "status": "success",
+    "severity": 4,
+    "source": "ap-northeast-1/instance-6026",
+    "metadata": {
+      "request_id": "req-28e333b6",
+      "user_id": "usr-7642",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 3454.55,
+      "tags": []
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "52171bf3-d181-43d1-ac2b-0cfcc5c51060",
+    "timestamp": "2025-12-23T12:29:56.314132+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "payment",
+    "status": "warning",
+    "severity": 2,
+    "source": "us-west-2/instance-7775",
+    "metadata": {
+      "request_id": "req-4ceda164",
+      "user_id": "usr-5508",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 2788.02,
+      "tags": [
+        "batch",
+        "critical"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "5d42b9e9-692e-47b6-8b2f-6d5c700b5d5f",
+    "timestamp": "2025-12-23T12:40:53.313005+00:00",
+    "service": "web-server",
+    "env": "staging",
+    "type": "job",
+    "status": "failed",
+    "severity": 4,
+    "source": "eu-central-1/instance-8355",
+    "metadata": {
+      "request_id": "req-3be79df4",
+      "user_id": "usr-9749",
+      "region": "us-west-2",
+      "retry_count": 2,
+      "latency_ms": 4828.33,
+      "tags": [
+        "critical"
+      ]
+    },
+    "message": "Operation failed for staging environment."
+  },
+  {
+    "id": "3d4196fe-963a-4617-bdab-07e79d9d028e",
+    "timestamp": "2025-12-23T14:07:00.313953+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "us-west-2/instance-4814",
+    "metadata": {
+      "request_id": "req-0d700ea4",
+      "user_id": "usr-2641",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 1658.17,
+      "tags": [
+        "auth",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "30a900ad-939b-462d-a645-f129629c2ae3",
+    "timestamp": "2025-12-23T17:41:20.312157+00:00",
+    "service": "auth-service",
+    "env": "staging",
+    "type": "network",
+    "status": "success",
+    "severity": 3,
+    "source": "us-east-1/instance-9518",
+    "metadata": {
+      "request_id": "req-ecf27e76",
+      "user_id": "usr-9821",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 1827.47,
+      "tags": []
+    },
+    "message": "Operation completed for staging environment."
+  },
+  {
+    "id": "2a1f955a-d499-4a99-85c4-5a3ee9da484a",
+    "timestamp": "2025-12-23T18:20:37.312651+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 2,
+    "source": "eu-central-1/instance-2886",
+    "metadata": {
+      "request_id": "req-77e490c7",
+      "user_id": "usr-2233",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 3773.22,
+      "tags": [
+        "batch",
+        "critical"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "25db5946-a091-45b4-9293-8e6eff4d0930",
+    "timestamp": "2025-12-23T18:36:38.315108+00:00",
+    "service": "data-pipeline",
+    "env": "dev",
+    "type": "auth",
+    "status": "failed",
+    "severity": 2,
+    "source": "us-east-1/instance-7358",
+    "metadata": {
+      "request_id": "req-8e6de263",
+      "user_id": "usr-7510",
+      "region": "eu-central-1",
+      "retry_count": 2,
+      "latency_ms": 2603.24,
+      "tags": [
+        "auth",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for dev environment."
+  },
+  {
+    "id": "7321a8b2-0840-405a-bfd2-f491dff389aa",
+    "timestamp": "2025-12-23T20:02:46.314551+00:00",
+    "service": "data-pipeline",
+    "env": "staging",
+    "type": "auth",
+    "status": "success",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-2923",
+    "metadata": {
+      "request_id": "req-c68fcba5",
+      "user_id": "usr-4882",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 4055.41,
+      "tags": [
+        "auth",
+        "infra",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "8181a8cc-3691-47eb-89a2-688b12c136e0",
+    "timestamp": "2025-12-23T20:44:27.312061+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "system",
+    "status": "failed",
+    "severity": 3,
+    "source": "us-east-1/instance-5002",
+    "metadata": {
+      "request_id": "req-5e9953d2",
+      "user_id": "usr-5669",
+      "region": "us-west-2",
+      "retry_count": 3,
+      "latency_ms": 4170.39,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "d64acb1f-39eb-438a-836e-3c49770e09db",
+    "timestamp": "2025-12-23T21:43:12.315080+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "warning",
+    "severity": 3,
+    "source": "us-west-2/instance-2584",
+    "metadata": {
+      "request_id": "req-15f0ea19",
+      "user_id": "usr-6632",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 4853.82,
+      "tags": [
+        "auth",
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "d248a9a7-ac1a-4554-83c7-5611ffe3fa49",
+    "timestamp": "2025-12-23T21:59:47.312471+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 5,
+    "source": "us-west-2/instance-8708",
+    "metadata": {
+      "request_id": "req-84dad06a",
+      "user_id": "usr-8245",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 915.63,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "51e744e4-b864-4a08-aa75-752d6a8fcacb",
+    "timestamp": "2025-12-23T22:30:19.314780+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "job",
+    "status": "warning",
+    "severity": 4,
+    "source": "eu-central-1/instance-2956",
+    "metadata": {
+      "request_id": "req-8085c147",
+      "user_id": "usr-1862",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 1123.69,
+      "tags": [
+        "critical",
+        "infra",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "34ae4abd-36fc-40ac-b469-8db30123a348",
+    "timestamp": "2025-12-24T00:34:10.314480+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "job",
+    "status": "failed",
+    "severity": 4,
+    "source": "us-east-1/instance-9796",
+    "metadata": {
+      "request_id": "req-2fdc9992",
+      "user_id": "usr-6993",
+      "region": "eu-central-1",
+      "retry_count": 1,
+      "latency_ms": 2293.18,
+      "tags": [
+        "batch",
+        "critical",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "30ec2796-a59b-457f-80d7-ac73095ffa81",
+    "timestamp": "2025-12-24T02:49:54.313114+00:00",
+    "service": "data-pipeline",
+    "env": "staging",
+    "type": "auth",
+    "status": "success",
+    "severity": 2,
+    "source": "eu-central-1/instance-5476",
+    "metadata": {
+      "request_id": "req-1fdd980a",
+      "user_id": "usr-7029",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 4448.54,
+      "tags": [
+        "batch",
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "ebc2026f-af34-4f65-a193-c4b23c19e71d",
+    "timestamp": "2025-12-24T03:12:03.312581+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 4,
+    "source": "ap-northeast-1/instance-2612",
+    "metadata": {
+      "request_id": "req-c2a79689",
+      "user_id": "usr-2646",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 840.16,
+      "tags": [
+        "auth",
+        "batch",
+        "critical"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "e6b5a92c-771a-4655-8dfc-6ee0e61ede90",
+    "timestamp": "2025-12-24T03:16:28.312608+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "payment",
+    "status": "success",
+    "severity": 2,
+    "source": "us-east-1/instance-8237",
+    "metadata": {
+      "request_id": "req-f1faf665",
+      "user_id": "usr-6661",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 3198.3,
+      "tags": [
+        "auth",
+        "critical"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "4e8bf78a-60dd-47f1-ace3-d822d08012b8",
+    "timestamp": "2025-12-24T05:16:48.314985+00:00",
+    "service": "payment-service",
+    "env": "dev",
+    "type": "payment",
+    "status": "failed",
+    "severity": 2,
+    "source": "us-east-1/instance-7415",
+    "metadata": {
+      "request_id": "req-d9cb3540",
+      "user_id": "usr-1530",
+      "region": "us-west-2",
+      "retry_count": 4,
+      "latency_ms": 1597.9,
+      "tags": [
+        "batch",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "13c11754-27aa-4cbc-a337-7bbcfffe77c8",
+    "timestamp": "2025-12-24T05:39:05.312990+00:00",
+    "service": "auth-service",
+    "env": "dev",
+    "type": "job",
+    "status": "success",
+    "severity": 4,
+    "source": "us-east-1/instance-6517",
+    "metadata": {
+      "request_id": "req-e05b46c5",
+      "user_id": "usr-3147",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 779.72,
+      "tags": [
+        "payment"
+      ]
+    },
+    "message": "Operation completed for dev environment."
+  },
+  {
+    "id": "9326dffd-5be4-4f51-9269-869861a11729",
+    "timestamp": "2025-12-24T05:40:29.312623+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-5497",
+    "metadata": {
+      "request_id": "req-0212b554",
+      "user_id": "usr-1803",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 4165.87,
+      "tags": [
+        "auth",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "deda4e16-1b3d-4d5c-a9a1-fa6f81f76d1c",
+    "timestamp": "2025-12-24T06:25:27.311929+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "us-west-2/instance-3504",
+    "metadata": {
+      "request_id": "req-5fb8d16c",
+      "user_id": "usr-3646",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 2998.73,
+      "tags": [
+        "batch",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "226716e3-3a5b-4ac5-9e70-3b72f8f58a26",
+    "timestamp": "2025-12-24T07:01:01.315150+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "system",
+    "status": "failed",
+    "severity": 4,
+    "source": "eu-central-1/instance-7828",
+    "metadata": {
+      "request_id": "req-9adfe981",
+      "user_id": "usr-2462",
+      "region": "us-west-2",
+      "retry_count": 3,
+      "latency_ms": 1064.84,
+      "tags": []
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "e03635fc-a88d-4108-98d9-94b8d90f74e9",
+    "timestamp": "2025-12-24T07:21:27.314685+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "job",
+    "status": "failed",
+    "severity": 4,
+    "source": "us-west-2/instance-7418",
+    "metadata": {
+      "request_id": "req-4ba8a4ca",
+      "user_id": "usr-1894",
+      "region": "us-west-2",
+      "retry_count": 3,
+      "latency_ms": 1935.57,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "4a27ebf2-8baa-4744-a08d-d21be3954cb1",
+    "timestamp": "2025-12-24T07:29:13.313792+00:00",
+    "service": "web-server",
+    "env": "staging",
+    "type": "payment",
+    "status": "success",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-5873",
+    "metadata": {
+      "request_id": "req-741b77f5",
+      "user_id": "usr-2195",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 798.82,
+      "tags": [
+        "auth",
+        "batch",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for staging environment."
+  },
+  {
+    "id": "2defe193-5c62-43a2-ba3c-563e4bd6cee6",
+    "timestamp": "2025-12-24T07:32:15.312390+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 4,
+    "source": "us-west-2/instance-5494",
+    "metadata": {
+      "request_id": "req-0ba6eab9",
+      "user_id": "usr-1893",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 3490.11,
+      "tags": [
+        "auth",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "81d2c7de-4ce1-4b90-a669-7833b841d0a0",
+    "timestamp": "2025-12-24T09:34:53.312170+00:00",
+    "service": "web-server",
+    "env": "dev",
+    "type": "system",
+    "status": "warning",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-5844",
+    "metadata": {
+      "request_id": "req-8dedf9fb",
+      "user_id": "usr-3085",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2108.03,
+      "tags": []
+    },
+    "message": "Operation failed for dev environment."
+  },
+  {
+    "id": "f6f7f0cc-29ec-4e49-91bd-b8c0c71d5e60",
+    "timestamp": "2025-12-24T10:05:32.312307+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "us-east-1/instance-6111",
+    "metadata": {
+      "request_id": "req-93676a02",
+      "user_id": "usr-7149",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 4707.94,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "337ea2df-b09b-4a5c-badc-c32ac1590f53",
+    "timestamp": "2025-12-24T10:17:23.311962+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-9479",
+    "metadata": {
+      "request_id": "req-7394988f",
+      "user_id": "usr-2982",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 1131.24,
+      "tags": [
+        "batch"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "ab73295b-344a-44b8-82c1-8a62ef48e8d5",
+    "timestamp": "2025-12-24T11:00:30.312048+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-3144",
+    "metadata": {
+      "request_id": "req-abf3e3fc",
+      "user_id": "usr-5915",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 1587.72,
+      "tags": [
+        "batch",
+        "critical",
+        "infra"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "58c88c48-3ced-4d1f-93eb-22c9beced21a",
+    "timestamp": "2025-12-24T12:33:44.314999+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 5,
+    "source": "eu-central-1/instance-8317",
+    "metadata": {
+      "request_id": "req-02ead2df",
+      "user_id": "usr-5345",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 1255.21,
+      "tags": [
+        "infra"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "8d55119e-3d44-4b2c-aa45-ba416589ada1",
+    "timestamp": "2025-12-24T13:10:22.314189+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 4,
+    "source": "ap-northeast-1/instance-9743",
+    "metadata": {
+      "request_id": "req-a6129a1c",
+      "user_id": "usr-6886",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 1315.19,
+      "tags": [
+        "batch",
+        "critical",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "9082889b-e1cd-487f-ac95-5f87ae5ec365",
+    "timestamp": "2025-12-24T13:38:13.312914+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "payment",
+    "status": "failed",
+    "severity": 1,
+    "source": "ap-northeast-1/instance-2118",
+    "metadata": {
+      "request_id": "req-780b3657",
+      "user_id": "usr-8245",
+      "region": "eu-central-1",
+      "retry_count": 2,
+      "latency_ms": 2961.18,
+      "tags": [
+        "batch",
+        "critical",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "a4bbf962-606e-4e1c-8f15-84494f40c22f",
+    "timestamp": "2025-12-24T15:10:17.312976+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 5,
+    "source": "us-east-1/instance-7937",
+    "metadata": {
+      "request_id": "req-822c4d32",
+      "user_id": "usr-6928",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 1819.36,
+      "tags": [
+        "auth",
+        "batch",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "1cd66b09-cf0e-4d2b-b15c-167a45d8a6ad",
+    "timestamp": "2025-12-24T15:48:52.313996+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "network",
+    "status": "warning",
+    "severity": 2,
+    "source": "eu-central-1/instance-4050",
+    "metadata": {
+      "request_id": "req-039b058c",
+      "user_id": "usr-6523",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 2843.23,
+      "tags": [
+        "batch",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "5e4cb287-0442-41db-90d4-ea6779928faa",
+    "timestamp": "2025-12-24T15:58:34.313882+00:00",
+    "service": "auth-service",
+    "env": "staging",
+    "type": "network",
+    "status": "success",
+    "severity": 2,
+    "source": "eu-central-1/instance-1436",
+    "metadata": {
+      "request_id": "req-98cf1188",
+      "user_id": "usr-8775",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 4835.68,
+      "tags": [
+        "batch",
+        "critical",
+        "infra"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "1375ee90-d6b3-41e4-bb6d-ca0d6fe5040b",
+    "timestamp": "2025-12-24T18:42:02.314311+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "job",
+    "status": "warning",
+    "severity": 4,
+    "source": "ap-northeast-1/instance-6347",
+    "metadata": {
+      "request_id": "req-07958c1f",
+      "user_id": "usr-5478",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 2458.11,
+      "tags": [
+        "auth",
+        "critical"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "e62d2d06-cf9b-4558-9a7f-195b73557b9d",
+    "timestamp": "2025-12-24T19:31:45.312947+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "us-west-2/instance-1641",
+    "metadata": {
+      "request_id": "req-3f6c21f7",
+      "user_id": "usr-8172",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 2625.1,
+      "tags": [
+        "auth"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "1d3e503a-9645-40e4-a47d-c3929c7eb575",
+    "timestamp": "2025-12-24T20:50:10.314494+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 5,
+    "source": "us-west-2/instance-5873",
+    "metadata": {
+      "request_id": "req-eb2ec80e",
+      "user_id": "usr-2388",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 1572.8,
+      "tags": [
+        "batch",
+        "edge"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "7ba109d0-8567-4805-b4f5-41c0c8c5eb2a",
+    "timestamp": "2025-12-24T20:56:44.314453+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "auth",
+    "status": "warning",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-8412",
+    "metadata": {
+      "request_id": "req-51a40d2a",
+      "user_id": "usr-2100",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 232.97,
+      "tags": [
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "4ffca6b1-99b4-49d4-89a2-14aef7e8f8e5",
+    "timestamp": "2025-12-24T21:55:12.312800+00:00",
+    "service": "auth-service",
+    "env": "dev",
+    "type": "job",
+    "status": "success",
+    "severity": 4,
+    "source": "us-west-2/instance-3535",
+    "metadata": {
+      "request_id": "req-a81fdec3",
+      "user_id": "usr-8900",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 4237.9,
+      "tags": [
+        "auth",
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation failed for dev environment."
+  },
+  {
+    "id": "debac186-ba10-4217-8ad7-c9a2727716ec",
+    "timestamp": "2025-12-24T22:11:10.313646+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 3,
+    "source": "eu-central-1/instance-1939",
+    "metadata": {
+      "request_id": "req-1335e5db",
+      "user_id": "usr-7655",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 2570.3,
+      "tags": [
+        "edge",
+        "infra",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "ce6322b6-ab05-447f-9556-b37d8f0881ee",
+    "timestamp": "2025-12-24T22:39:16.312870+00:00",
+    "service": "auth-service",
+    "env": "staging",
+    "type": "network",
+    "status": "success",
+    "severity": 3,
+    "source": "us-east-1/instance-8147",
+    "metadata": {
+      "request_id": "req-04cc3ede",
+      "user_id": "usr-8532",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 4311.93,
+      "tags": [
+        "batch"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "a85894df-3f8c-4097-84da-2c2e1bffa279",
+    "timestamp": "2025-12-24T22:53:58.314426+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 5,
+    "source": "us-east-1/instance-7547",
+    "metadata": {
+      "request_id": "req-f780ef2f",
+      "user_id": "usr-6432",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 538.66,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "3f8b4433-b60e-495c-9759-ba9625f88c74",
+    "timestamp": "2025-12-24T23:06:48.314861+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "job",
+    "status": "failed",
+    "severity": 3,
+    "source": "us-east-1/instance-5896",
+    "metadata": {
+      "request_id": "req-429a4a7c",
+      "user_id": "usr-3848",
+      "region": "us-east-1",
+      "retry_count": 3,
+      "latency_ms": 4274.46,
+      "tags": [
+        "infra"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "ce63cb1a-5168-4bf2-97af-5bde3c8e9d78",
+    "timestamp": "2025-12-24T23:59:56.314944+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "warning",
+    "severity": 3,
+    "source": "eu-central-1/instance-3328",
+    "metadata": {
+      "request_id": "req-9027e770",
+      "user_id": "usr-4084",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 2715.2,
+      "tags": [
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "b69f75c5-c82b-41be-a1eb-64e6fd498e20",
+    "timestamp": "2025-12-25T00:05:41.314917+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "job",
+    "status": "warning",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-6636",
+    "metadata": {
+      "request_id": "req-e9a53368",
+      "user_id": "usr-9231",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 1948.02,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "5dc7b3e6-a529-44ff-874c-c8903c6a3174",
+    "timestamp": "2025-12-25T00:58:47.313682+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "job",
+    "status": "warning",
+    "severity": 2,
+    "source": "us-east-1/instance-3513",
+    "metadata": {
+      "request_id": "req-add702c9",
+      "user_id": "usr-8371",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 1866.35,
+      "tags": [
+        "auth",
+        "critical",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "a2bc372f-7412-4293-8729-4739614ff3d7",
+    "timestamp": "2025-12-25T01:45:39.311864+00:00",
+    "service": "payment-service",
+    "env": "staging",
+    "type": "system",
+    "status": "warning",
+    "severity": 4,
+    "source": "eu-central-1/instance-4432",
+    "metadata": {
+      "request_id": "req-ab9099a4",
+      "user_id": "usr-5374",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 3049.56,
+      "tags": []
+    },
+    "message": "Operation completed for staging environment."
+  },
+  {
+    "id": "020a4497-74ed-4145-8d97-65c7161d5c87",
+    "timestamp": "2025-12-25T02:57:04.314794+00:00",
+    "service": "payment-service",
+    "env": "dev",
+    "type": "system",
+    "status": "warning",
+    "severity": 1,
+    "source": "eu-central-1/instance-4974",
+    "metadata": {
+      "request_id": "req-76c3e642",
+      "user_id": "usr-7033",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 4988.96,
+      "tags": [
+        "batch",
+        "critical",
+        "infra"
+      ]
+    },
+    "message": "Operation completed for dev environment."
+  },
+  {
+    "id": "bf6b8cdf-7479-4b61-a737-2b527a6a2107",
+    "timestamp": "2025-12-25T04:19:19.314036+00:00",
+    "service": "web-server",
+    "env": "dev",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-9806",
+    "metadata": {
+      "request_id": "req-cd4f8b2b",
+      "user_id": "usr-4578",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 3404.91,
+      "tags": [
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "3712f2d1-87cd-46a1-bf01-2e32177d6e7e",
+    "timestamp": "2025-12-25T05:04:13.312828+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "network",
+    "status": "warning",
+    "severity": 3,
+    "source": "eu-central-1/instance-3578",
+    "metadata": {
+      "request_id": "req-5ebbcca5",
+      "user_id": "usr-6105",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 3886.41,
+      "tags": [
+        "auth",
+        "critical",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "1ff49b78-8946-4e85-b59c-de66bacfb3d0",
+    "timestamp": "2025-12-25T05:45:07.311844+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 2,
+    "source": "eu-central-1/instance-6925",
+    "metadata": {
+      "request_id": "req-93cd59bf",
+      "user_id": "usr-4150",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 238.66,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "e1301617-c2df-4335-9666-6f9f53ac2ab9",
+    "timestamp": "2025-12-25T05:55:27.312280+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 1,
+    "source": "eu-central-1/instance-2341",
+    "metadata": {
+      "request_id": "req-78660765",
+      "user_id": "usr-1317",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 4999.54,
+      "tags": [
+        "edge",
+        "infra",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "c64c9647-9ea7-417c-b89f-7039a107cc46",
+    "timestamp": "2025-12-25T06:14:03.313896+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "payment",
+    "status": "failed",
+    "severity": 3,
+    "source": "us-east-1/instance-2800",
+    "metadata": {
+      "request_id": "req-30d73df7",
+      "user_id": "usr-1310",
+      "region": "ap-northeast-1",
+      "retry_count": 2,
+      "latency_ms": 2099.71,
+      "tags": [
+        "batch"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "9360715f-c3fe-4183-a172-b725db52ca58",
+    "timestamp": "2025-12-25T06:17:23.312252+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "auth",
+    "status": "failed",
+    "severity": 5,
+    "source": "eu-central-1/instance-5892",
+    "metadata": {
+      "request_id": "req-c0e3befd",
+      "user_id": "usr-7389",
+      "region": "ap-northeast-1",
+      "retry_count": 4,
+      "latency_ms": 3740.1,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "a4b05c89-f10b-4e9c-982b-91eef8e8035b",
+    "timestamp": "2025-12-25T06:30:54.314145+00:00",
+    "service": "notification-service",
+    "env": "staging",
+    "type": "system",
+    "status": "warning",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-7688",
+    "metadata": {
+      "request_id": "req-26332018",
+      "user_id": "usr-5913",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 927.56,
+      "tags": [
+        "auth",
+        "batch",
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "62801c45-1043-4a10-98ae-43346c12ace8",
+    "timestamp": "2025-12-25T06:39:01.311913+00:00",
+    "service": "notification-service",
+    "env": "staging",
+    "type": "network",
+    "status": "warning",
+    "severity": 2,
+    "source": "eu-central-1/instance-1188",
+    "metadata": {
+      "request_id": "req-ae270da7",
+      "user_id": "usr-2876",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 3845.31,
+      "tags": [
+        "critical"
+      ]
+    },
+    "message": "Operation failed for staging environment."
+  },
+  {
+    "id": "1bac27a7-b386-47a4-8991-603f28c13091",
+    "timestamp": "2025-12-25T06:55:09.312128+00:00",
+    "service": "auth-service",
+    "env": "dev",
+    "type": "network",
+    "status": "failed",
+    "severity": 3,
+    "source": "us-west-2/instance-4269",
+    "metadata": {
+      "request_id": "req-d10bd1d0",
+      "user_id": "usr-8541",
+      "region": "eu-central-1",
+      "retry_count": 2,
+      "latency_ms": 4104.48,
+      "tags": [
+        "infra"
+      ]
+    },
+    "message": "Operation completed for dev environment."
+  },
+  {
+    "id": "3b33f3d8-269c-4696-a36c-7b8714a0bccb",
+    "timestamp": "2025-12-25T07:03:46.312239+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "payment",
+    "status": "failed",
+    "severity": 2,
+    "source": "us-east-1/instance-7797",
+    "metadata": {
+      "request_id": "req-68586eba",
+      "user_id": "usr-6421",
+      "region": "ap-northeast-1",
+      "retry_count": 3,
+      "latency_ms": 320.71,
+      "tags": [
+        "batch",
+        "infra"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "96ee50e5-1f87-4b46-80a0-473a23d7e6a1",
+    "timestamp": "2025-12-25T07:21:11.314672+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "network",
+    "status": "warning",
+    "severity": 1,
+    "source": "eu-central-1/instance-3290",
+    "metadata": {
+      "request_id": "req-3f6eed9d",
+      "user_id": "usr-5537",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 1248.35,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "61985d54-cfb8-4e6f-a9d6-8f23b489d070",
+    "timestamp": "2025-12-25T07:56:57.312553+00:00",
+    "service": "payment-service",
+    "env": "dev",
+    "type": "network",
+    "status": "success",
+    "severity": 3,
+    "source": "us-east-1/instance-3068",
+    "metadata": {
+      "request_id": "req-80962718",
+      "user_id": "usr-6439",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 4372.21,
+      "tags": [
+        "auth",
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation failed for dev environment."
+  },
+  {
+    "id": "0b251279-785a-45d0-9f92-a62163f4c69d",
+    "timestamp": "2025-12-25T08:10:59.313086+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 5,
+    "source": "us-east-1/instance-6850",
+    "metadata": {
+      "request_id": "req-c9dc72b8",
+      "user_id": "usr-2106",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 1213.22,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "50a46c85-d9d5-4b02-82d0-4d554aab47b2",
+    "timestamp": "2025-12-25T09:57:05.314834+00:00",
+    "service": "data-pipeline",
+    "env": "staging",
+    "type": "system",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-5455",
+    "metadata": {
+      "request_id": "req-3bcdf203",
+      "user_id": "usr-2223",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 689.2,
+      "tags": [
+        "batch",
+        "critical",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "6133a34d-8b0e-4eb1-ad37-1d9e92cf6021",
+    "timestamp": "2025-12-25T10:24:42.313939+00:00",
+    "service": "data-pipeline",
+    "env": "dev",
+    "type": "payment",
+    "status": "failed",
+    "severity": 2,
+    "source": "eu-central-1/instance-1689",
+    "metadata": {
+      "request_id": "req-49a22441",
+      "user_id": "usr-2294",
+      "region": "eu-central-1",
+      "retry_count": 3,
+      "latency_ms": 3283.3,
+      "tags": []
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "a981fa54-f121-4129-b45c-9a545fa3a531",
+    "timestamp": "2025-12-25T10:43:17.314971+00:00",
+    "service": "notification-service",
+    "env": "staging",
+    "type": "auth",
+    "status": "failed",
+    "severity": 4,
+    "source": "eu-central-1/instance-5944",
+    "metadata": {
+      "request_id": "req-52961fb3",
+      "user_id": "usr-3235",
+      "region": "us-west-2",
+      "retry_count": 5,
+      "latency_ms": 4743.98,
+      "tags": []
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "ca0ee8c4-f2dc-412b-8f7a-e302ec2e2815",
+    "timestamp": "2025-12-25T11:24:52.314711+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-7939",
+    "metadata": {
+      "request_id": "req-b3a9dcaa",
+      "user_id": "usr-7590",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 3206.28,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "24e9bcfd-9647-4f9f-b508-507af622d842",
+    "timestamp": "2025-12-25T11:30:28.314297+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 4,
+    "source": "us-west-2/instance-4939",
+    "metadata": {
+      "request_id": "req-9112fbc0",
+      "user_id": "usr-7375",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 1925.39,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "586a346a-dc5b-47d1-bcef-1972bbf483ce",
+    "timestamp": "2025-12-25T11:37:49.313809+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 3,
+    "source": "us-east-1/instance-6228",
+    "metadata": {
+      "request_id": "req-3de28859",
+      "user_id": "usr-8642",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 1344.68,
+      "tags": [
+        "critical",
+        "infra"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "d8e88ebb-7a9e-4eef-bfa3-61be0f9240e1",
+    "timestamp": "2025-12-25T12:28:31.312753+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "auth",
+    "status": "failed",
+    "severity": 4,
+    "source": "ap-northeast-1/instance-8267",
+    "metadata": {
+      "request_id": "req-12d0498d",
+      "user_id": "usr-2323",
+      "region": "eu-central-1",
+      "retry_count": 4,
+      "latency_ms": 750.19,
+      "tags": [
+        "auth",
+        "edge"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "b193c8b8-ae49-4079-9bd0-d4c79e45455e",
+    "timestamp": "2025-12-25T12:30:18.315137+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "network",
+    "status": "failed",
+    "severity": 1,
+    "source": "eu-central-1/instance-4892",
+    "metadata": {
+      "request_id": "req-0c9e5550",
+      "user_id": "usr-8785",
+      "region": "eu-central-1",
+      "retry_count": 2,
+      "latency_ms": 110.96,
+      "tags": [
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "b321bf21-4dd8-4b85-b04d-337677fc9703",
+    "timestamp": "2025-12-25T12:44:05.312458+00:00",
+    "service": "data-pipeline",
+    "env": "staging",
+    "type": "job",
+    "status": "success",
+    "severity": 4,
+    "source": "ap-northeast-1/instance-8172",
+    "metadata": {
+      "request_id": "req-1497d658",
+      "user_id": "usr-1653",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 3675.32,
+      "tags": [
+        "auth",
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "ab3b4d37-560c-45ee-a38c-254c076e2bba",
+    "timestamp": "2025-12-25T13:15:41.312266+00:00",
+    "service": "payment-service",
+    "env": "staging",
+    "type": "network",
+    "status": "warning",
+    "severity": 3,
+    "source": "us-west-2/instance-9751",
+    "metadata": {
+      "request_id": "req-06e745f9",
+      "user_id": "usr-7455",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 428.9,
+      "tags": [
+        "critical",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for staging environment."
+  },
+  {
+    "id": "e256a6dc-8f54-46b7-87b5-b2bc5a8aaeca",
+    "timestamp": "2025-12-25T13:51:42.312114+00:00",
+    "service": "notification-service",
+    "env": "staging",
+    "type": "payment",
+    "status": "success",
+    "severity": 2,
+    "source": "us-west-2/instance-3662",
+    "metadata": {
+      "request_id": "req-f9e8a369",
+      "user_id": "usr-3900",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 133.68,
+      "tags": []
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "7d45d8ef-d56c-48ea-9959-7b5aa7a8f636",
+    "timestamp": "2025-12-25T14:22:05.312693+00:00",
+    "service": "data-pipeline",
+    "env": "dev",
+    "type": "auth",
+    "status": "failed",
+    "severity": 3,
+    "source": "eu-central-1/instance-4559",
+    "metadata": {
+      "request_id": "req-71818dcf",
+      "user_id": "usr-8285",
+      "region": "us-west-2",
+      "retry_count": 2,
+      "latency_ms": 505.78,
+      "tags": [
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "c9230c64-c006-4b5b-b678-39b222b5f457",
+    "timestamp": "2025-12-25T15:22:54.314578+00:00",
+    "service": "auth-service",
+    "env": "dev",
+    "type": "system",
+    "status": "success",
+    "severity": 5,
+    "source": "us-west-2/instance-3174",
+    "metadata": {
+      "request_id": "req-3fead90a",
+      "user_id": "usr-3396",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 4144.12,
+      "tags": []
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "87fa841a-3e83-491f-a544-0fe06e417d47",
+    "timestamp": "2025-12-25T15:30:52.312595+00:00",
+    "service": "notification-service",
+    "env": "dev",
+    "type": "payment",
+    "status": "success",
+    "severity": 4,
+    "source": "us-west-2/instance-3868",
+    "metadata": {
+      "request_id": "req-14374509",
+      "user_id": "usr-7267",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2493.36,
+      "tags": [
+        "critical",
+        "infra"
+      ]
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "764414fd-8ae7-49ed-9e8e-de0ba85c6e4a",
+    "timestamp": "2025-12-25T15:51:46.312498+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "payment",
+    "status": "warning",
+    "severity": 3,
+    "source": "eu-central-1/instance-9167",
+    "metadata": {
+      "request_id": "req-a01ac992",
+      "user_id": "usr-8242",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 1025.76,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "69a53b4f-8ff8-469d-8ec0-713dea2c7a51",
+    "timestamp": "2025-12-25T16:48:45.314159+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "job",
+    "status": "failed",
+    "severity": 2,
+    "source": "us-west-2/instance-7363",
+    "metadata": {
+      "request_id": "req-3e2bf9c9",
+      "user_id": "usr-5177",
+      "region": "us-west-2",
+      "retry_count": 2,
+      "latency_ms": 3237.06,
+      "tags": [
+        "edge"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "bde13c1b-2073-4f6d-8d6a-05b343ef2016",
+    "timestamp": "2025-12-25T18:06:34.312734+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "failed",
+    "severity": 2,
+    "source": "us-east-1/instance-8802",
+    "metadata": {
+      "request_id": "req-72c22a16",
+      "user_id": "usr-6931",
+      "region": "us-east-1",
+      "retry_count": 3,
+      "latency_ms": 2524.16,
+      "tags": [
+        "auth",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "dc3f42e0-fcf7-4842-9edf-3bfad12e0eb5",
+    "timestamp": "2025-12-25T18:30:13.314646+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 3,
+    "source": "us-east-1/instance-4751",
+    "metadata": {
+      "request_id": "req-6210def6",
+      "user_id": "usr-2463",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 524.98,
+      "tags": [
+        "auth",
+        "critical",
+        "infra"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "716fda0a-45a8-4829-94e2-86e5ac8936bc",
+    "timestamp": "2025-12-25T18:59:56.312842+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "job",
+    "status": "warning",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-7785",
+    "metadata": {
+      "request_id": "req-45ee432d",
+      "user_id": "usr-4531",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 1732.41,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "816bcb9f-7426-4193-8b7e-6b3c87d292a6",
+    "timestamp": "2025-12-25T20:48:01.312768+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "failed",
+    "severity": 3,
+    "source": "us-west-2/instance-8046",
+    "metadata": {
+      "request_id": "req-73991a47",
+      "user_id": "usr-4743",
+      "region": "ap-northeast-1",
+      "retry_count": 2,
+      "latency_ms": 4138.82,
+      "tags": [
+        "batch",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "a8b317fa-18d0-452b-9825-bc5430beb45f",
+    "timestamp": "2025-12-25T21:02:54.311991+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "network",
+    "status": "failed",
+    "severity": 4,
+    "source": "ap-northeast-1/instance-8651",
+    "metadata": {
+      "request_id": "req-dd2467ac",
+      "user_id": "usr-1887",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 2019.08,
+      "tags": [
+        "batch",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "9b792afa-2a3d-418d-a754-a29ff143e545",
+    "timestamp": "2025-12-25T21:57:57.315039+00:00",
+    "service": "payment-service",
+    "env": "dev",
+    "type": "auth",
+    "status": "warning",
+    "severity": 2,
+    "source": "us-east-1/instance-6424",
+    "metadata": {
+      "request_id": "req-349ef4a9",
+      "user_id": "usr-4112",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 3489.01,
+      "tags": [
+        "auth",
+        "critical",
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "7a8d03aa-782a-45e0-88ca-765192f5df7b",
+    "timestamp": "2025-12-25T23:47:30.312402+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "payment",
+    "status": "failed",
+    "severity": 2,
+    "source": "us-east-1/instance-5136",
+    "metadata": {
+      "request_id": "req-f0e98b3b",
+      "user_id": "usr-8827",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 2009.53,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "08987462-980c-495c-99d4-5deb1139fa12",
+    "timestamp": "2025-12-26T01:31:52.314118+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "warning",
+    "severity": 4,
+    "source": "us-west-2/instance-1724",
+    "metadata": {
+      "request_id": "req-66fadca0",
+      "user_id": "usr-8191",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2703.4,
+      "tags": [
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "7da67785-b63b-4dc3-a559-e46379e13cea",
+    "timestamp": "2025-12-26T02:02:10.312362+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "auth",
+    "status": "failed",
+    "severity": 3,
+    "source": "eu-central-1/instance-4630",
+    "metadata": {
+      "request_id": "req-6786d506",
+      "user_id": "usr-4986",
+      "region": "eu-central-1",
+      "retry_count": 5,
+      "latency_ms": 2911.96,
+      "tags": [
+        "critical"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "1fa382e8-895c-4d99-83b3-8eb403902c5d",
+    "timestamp": "2025-12-26T03:57:42.312665+00:00",
+    "service": "data-pipeline",
+    "env": "staging",
+    "type": "system",
+    "status": "failed",
+    "severity": 5,
+    "source": "ap-northeast-1/instance-7086",
+    "metadata": {
+      "request_id": "req-1bbc91f7",
+      "user_id": "usr-4830",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 3101.54,
+      "tags": [
+        "auth",
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "43e458fc-63f2-4e24-bc3d-3348008d4127",
+    "timestamp": "2025-12-26T04:01:35.312021+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-3536",
+    "metadata": {
+      "request_id": "req-309d258c",
+      "user_id": "usr-5861",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 4843.86,
+      "tags": [
+        "auth",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "d6321d31-c8ac-4fcf-a04d-4d14197dbae1",
+    "timestamp": "2025-12-26T05:21:31.314618+00:00",
+    "service": "auth-service",
+    "env": "staging",
+    "type": "auth",
+    "status": "warning",
+    "severity": 4,
+    "source": "us-west-2/instance-8230",
+    "metadata": {
+      "request_id": "req-74de5f70",
+      "user_id": "usr-1011",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 1019.57,
+      "tags": []
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "2bffe17b-5324-41fc-b758-dce20556daea",
+    "timestamp": "2025-12-26T05:30:31.312884+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-2734",
+    "metadata": {
+      "request_id": "req-3e49fd09",
+      "user_id": "usr-8138",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 2624.57,
+      "tags": [
+        "auth",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "e1e0fffc-98f6-4d7f-beb1-62f14806f804",
+    "timestamp": "2025-12-26T08:33:51.313837+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "job",
+    "status": "warning",
+    "severity": 2,
+    "source": "us-east-1/instance-2761",
+    "metadata": {
+      "request_id": "req-6e51484d",
+      "user_id": "usr-3194",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 3640.27,
+      "tags": [
+        "auth",
+        "critical"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "fc737d92-11ab-4d11-a4eb-8000ef40d162",
+    "timestamp": "2025-12-26T08:59:47.314077+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 4,
+    "source": "ap-northeast-1/instance-3948",
+    "metadata": {
+      "request_id": "req-c4db5a62",
+      "user_id": "usr-3218",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 1878.56,
+      "tags": []
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "554227de-b6ad-448b-a314-d0c809f64405",
+    "timestamp": "2025-12-26T09:29:01.313868+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 2,
+    "source": "us-west-2/instance-9446",
+    "metadata": {
+      "request_id": "req-23c8afdb",
+      "user_id": "usr-6373",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 820.89,
+      "tags": [
+        "auth",
+        "batch",
+        "critical"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "e0decc3d-e172-4c83-af5e-4376a723fb72",
+    "timestamp": "2025-12-26T10:03:12.313967+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "payment",
+    "status": "failed",
+    "severity": 1,
+    "source": "eu-central-1/instance-6262",
+    "metadata": {
+      "request_id": "req-4910fade",
+      "user_id": "usr-1969",
+      "region": "us-east-1",
+      "retry_count": 5,
+      "latency_ms": 2874.93,
+      "tags": [
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "5336723b-8f96-4685-b514-589084c86c46",
+    "timestamp": "2025-12-26T10:49:53.313912+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "network",
+    "status": "success",
+    "severity": 4,
+    "source": "eu-central-1/instance-3837",
+    "metadata": {
+      "request_id": "req-75ac824c",
+      "user_id": "usr-9734",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 2735.9,
+      "tags": [
+        "auth",
+        "critical",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "2f8d8ded-6c4c-450b-a23a-d0fc93267d25",
+    "timestamp": "2025-12-26T13:14:55.314508+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "payment",
+    "status": "success",
+    "severity": 4,
+    "source": "us-west-2/instance-9022",
+    "metadata": {
+      "request_id": "req-49f1137d",
+      "user_id": "usr-3298",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 1579.75,
+      "tags": [
+        "batch",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "d664d264-4c6e-47ff-b9de-7a3a486822b9",
+    "timestamp": "2025-12-26T14:06:50.312538+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "network",
+    "status": "failed",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-6654",
+    "metadata": {
+      "request_id": "req-551ac8ea",
+      "user_id": "usr-9903",
+      "region": "ap-northeast-1",
+      "retry_count": 3,
+      "latency_ms": 4664.93,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "bd5609c4-a446-4663-b93b-17fbf76d15fd",
+    "timestamp": "2025-12-26T14:23:31.314216+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "payment",
+    "status": "success",
+    "severity": 3,
+    "source": "eu-central-1/instance-3773",
+    "metadata": {
+      "request_id": "req-23d4526b",
+      "user_id": "usr-9954",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 928.4,
+      "tags": [
+        "edge",
+        "infra"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "8cb6b0ba-925f-4199-a495-3d5f0cb4e891",
+    "timestamp": "2025-12-26T14:29:41.315052+00:00",
+    "service": "payment-service",
+    "env": "dev",
+    "type": "auth",
+    "status": "success",
+    "severity": 4,
+    "source": "eu-central-1/instance-1062",
+    "metadata": {
+      "request_id": "req-6d779595",
+      "user_id": "usr-2435",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 4121.25,
+      "tags": [
+        "auth",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for dev environment."
+  },
+  {
+    "id": "a72f947d-8164-42cb-8fc3-d7d3f6bd80c7",
+    "timestamp": "2025-12-26T15:39:58.314522+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "network",
+    "status": "warning",
+    "severity": 5,
+    "source": "ap-northeast-1/instance-8272",
+    "metadata": {
+      "request_id": "req-7d1b695e",
+      "user_id": "usr-3740",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 2831.34,
+      "tags": [
+        "critical",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "c4134dc2-c5c5-4e8a-be15-ad1290ce77e9",
+    "timestamp": "2025-12-26T15:45:58.314535+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "us-east-1/instance-2871",
+    "metadata": {
+      "request_id": "req-44945e09",
+      "user_id": "usr-9898",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 2714.8,
+      "tags": [
+        "edge"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "3f2086c2-f1b8-4d65-806f-64d65c72aebd",
+    "timestamp": "2025-12-26T15:54:31.314370+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 2,
+    "source": "us-west-2/instance-8501",
+    "metadata": {
+      "request_id": "req-1b628a9d",
+      "user_id": "usr-3219",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 43.77,
+      "tags": [
+        "auth",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "c5b8386b-768b-4f7e-a421-5e665fc64cd0",
+    "timestamp": "2025-12-26T17:16:01.314439+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "system",
+    "status": "success",
+    "severity": 3,
+    "source": "us-east-1/instance-8909",
+    "metadata": {
+      "request_id": "req-1ac3bf31",
+      "user_id": "usr-5840",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 4603.53,
+      "tags": [
+        "edge"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "62e7c1a6-12d2-4a06-89e1-cd138da00495",
+    "timestamp": "2025-12-26T18:22:15.313851+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "eu-central-1/instance-2946",
+    "metadata": {
+      "request_id": "req-20f0156a",
+      "user_id": "usr-2584",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 1872.26,
+      "tags": [
+        "infra"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "8c32bdb2-d42a-495e-8fcf-601f1cb9b73a",
+    "timestamp": "2025-12-26T18:43:46.314050+00:00",
+    "service": "payment-service",
+    "env": "staging",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "us-west-2/instance-3695",
+    "metadata": {
+      "request_id": "req-53ff8461",
+      "user_id": "usr-9525",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 590.04,
+      "tags": [
+        "auth",
+        "batch"
+      ]
+    },
+    "message": "Operation completed for staging environment."
+  },
+  {
+    "id": "87d5b7be-1d30-4990-a21b-030782af085c",
+    "timestamp": "2025-12-26T20:01:48.312898+00:00",
+    "service": "payment-service",
+    "env": "staging",
+    "type": "system",
+    "status": "failed",
+    "severity": 2,
+    "source": "eu-central-1/instance-3419",
+    "metadata": {
+      "request_id": "req-3c7c1d85",
+      "user_id": "usr-2684",
+      "region": "us-west-2",
+      "retry_count": 2,
+      "latency_ms": 994.39,
+      "tags": [
+        "auth"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "73069588-45d5-468d-a90a-3abbc35b9fea",
+    "timestamp": "2025-12-26T21:01:14.313033+00:00",
+    "service": "payment-service",
+    "env": "staging",
+    "type": "network",
+    "status": "success",
+    "severity": 2,
+    "source": "us-east-1/instance-4637",
+    "metadata": {
+      "request_id": "req-d11376e0",
+      "user_id": "usr-8391",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 4653.05,
+      "tags": []
+    },
+    "message": "Operation failed for staging environment."
+  },
+  {
+    "id": "7fc15858-2fa0-4842-bc55-300b06a241af",
+    "timestamp": "2025-12-26T22:18:00.313702+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "us-east-1/instance-5288",
+    "metadata": {
+      "request_id": "req-c6641285",
+      "user_id": "usr-5264",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 1080.71,
+      "tags": [
+        "auth",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "ec9f9c54-5e0a-42ab-bf5d-b163b12b6680",
+    "timestamp": "2025-12-26T22:44:45.313127+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "auth",
+    "status": "warning",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-2293",
+    "metadata": {
+      "request_id": "req-6e3c4532",
+      "user_id": "usr-3956",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 1612.85,
+      "tags": [
+        "edge"
+      ]
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "2d174fc9-6f7c-45ea-a72a-6d8eb5122df8",
+    "timestamp": "2025-12-26T23:27:56.312334+00:00",
+    "service": "data-pipeline",
+    "env": "staging",
+    "type": "job",
+    "status": "failed",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-8616",
+    "metadata": {
+      "request_id": "req-6f81cf4f",
+      "user_id": "usr-5397",
+      "region": "eu-central-1",
+      "retry_count": 1,
+      "latency_ms": 4155.35,
+      "tags": [
+        "critical",
+        "edge"
+      ]
+    },
+    "message": "Operation completed for staging environment."
+  },
+  {
+    "id": "45a08539-6de8-470a-8e9e-9ebd55c34853",
+    "timestamp": "2025-12-27T00:04:45.314753+00:00",
+    "service": "auth-service",
+    "env": "staging",
+    "type": "system",
+    "status": "success",
+    "severity": 4,
+    "source": "us-east-1/instance-9128",
+    "metadata": {
+      "request_id": "req-7487d772",
+      "user_id": "usr-9368",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 286.64,
+      "tags": []
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "31227592-3db0-4235-a61e-2555863e1f2a",
+    "timestamp": "2025-12-27T00:50:14.314256+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "system",
+    "status": "warning",
+    "severity": 2,
+    "source": "eu-central-1/instance-7502",
+    "metadata": {
+      "request_id": "req-143a9aff",
+      "user_id": "usr-7112",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 2300.4,
+      "tags": []
+    },
+    "message": "Operation completed for prod environment."
+  },
+  {
+    "id": "9bdf90f2-ba2c-4f19-b0b2-a5d18c7e6f42",
+    "timestamp": "2025-12-27T01:13:13.313060+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "auth",
+    "status": "success",
+    "severity": 1,
+    "source": "eu-central-1/instance-4893",
+    "metadata": {
+      "request_id": "req-4d183eba",
+      "user_id": "usr-2996",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 1199.81,
+      "tags": [
+        "critical",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "11836c4f-2492-44c7-ad58-db1bfe31537a",
+    "timestamp": "2025-12-27T02:01:03.314659+00:00",
+    "service": "notification-service",
+    "env": "staging",
+    "type": "auth",
+    "status": "success",
+    "severity": 4,
+    "source": "us-west-2/instance-8210",
+    "metadata": {
+      "request_id": "req-59e7703a",
+      "user_id": "usr-4490",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 4600.27,
+      "tags": [
+        "critical"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "eb5cf467-80ba-4d64-ba0e-cfea958ca9ba",
+    "timestamp": "2025-12-27T02:11:51.312034+00:00",
+    "service": "payment-service",
+    "env": "staging",
+    "type": "auth",
+    "status": "success",
+    "severity": 2,
+    "source": "us-east-1/instance-4044",
+    "metadata": {
+      "request_id": "req-118a9d29",
+      "user_id": "usr-2113",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2024.84,
+      "tags": []
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "6651529e-8268-490b-a438-25b559e4b671",
+    "timestamp": "2025-12-27T03:40:47.312142+00:00",
+    "service": "data-pipeline",
+    "env": "prod",
+    "type": "auth",
+    "status": "failed",
+    "severity": 3,
+    "source": "us-east-1/instance-5279",
+    "metadata": {
+      "request_id": "req-2db69edb",
+      "user_id": "usr-5349",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 2986.89,
+      "tags": [
+        "auth",
+        "infra"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "dfe2c0a0-a96b-4c42-b6d2-2a7baec76a82",
+    "timestamp": "2025-12-27T04:34:42.314091+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "system",
+    "status": "warning",
+    "severity": 3,
+    "source": "us-east-1/instance-3924",
+    "metadata": {
+      "request_id": "req-fe2b34d8",
+      "user_id": "usr-9802",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 2648.92,
+      "tags": []
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "3ba5bd76-061e-4b95-a8f8-2063eeb19ad2",
+    "timestamp": "2025-12-27T05:13:56.314807+00:00",
+    "service": "data-pipeline",
+    "env": "staging",
+    "type": "auth",
+    "status": "success",
+    "severity": 4,
+    "source": "eu-central-1/instance-1023",
+    "metadata": {
+      "request_id": "req-c2492e5e",
+      "user_id": "usr-7164",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 528.71,
+      "tags": [
+        "auth"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "bd9c66b3-ad3c-4d6d-9a3d-1fa7bc8960a9",
+    "timestamp": "2025-12-27T06:20:43.311629+00:00",
+    "service": "auth-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 2,
+    "source": "ap-northeast-1/instance-1520",
+    "metadata": {
+      "request_id": "req-07a0ca6e",
+      "user_id": "usr-2535",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 1170.98,
+      "tags": [
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "69785221-7fb7-4c57-8b8c-031fa5b40983",
+    "timestamp": "2025-12-27T07:53:43.314904+00:00",
+    "service": "web-server",
+    "env": "prod",
+    "type": "auth",
+    "status": "warning",
+    "severity": 2,
+    "source": "us-east-1/instance-5583",
+    "metadata": {
+      "request_id": "req-620d4a1f",
+      "user_id": "usr-3248",
+      "region": "ap-northeast-1",
+      "retry_count": 0,
+      "latency_ms": 1005.29,
+      "tags": [
+        "auth",
+        "critical",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "74eff545-3e65-4603-b8e3-654bfaf14ff0",
+    "timestamp": "2025-12-27T08:03:48.312525+00:00",
+    "service": "payment-service",
+    "env": "staging",
+    "type": "network",
+    "status": "success",
+    "severity": 4,
+    "source": "us-west-2/instance-9327",
+    "metadata": {
+      "request_id": "req-bf0d073d",
+      "user_id": "usr-3236",
+      "region": "us-east-1",
+      "retry_count": 0,
+      "latency_ms": 1388.47,
+      "tags": [
+        "critical",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for staging environment."
+  },
+  {
+    "id": "c4767556-f97b-42dd-8f9b-72aed85c16bd",
+    "timestamp": "2025-12-27T09:39:28.312814+00:00",
+    "service": "auth-service",
+    "env": "staging",
+    "type": "job",
+    "status": "success",
+    "severity": 4,
+    "source": "eu-central-1/instance-1474",
+    "metadata": {
+      "request_id": "req-2e2fbf77",
+      "user_id": "usr-5477",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 4608.47,
+      "tags": [
+        "edge"
+      ]
+    },
+    "message": "Operation failed for staging environment."
+  },
+  {
+    "id": "72e76b51-6e54-4c6d-aff8-e87e16591c89",
+    "timestamp": "2025-12-27T09:43:46.314342+00:00",
+    "service": "notification-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "ap-northeast-1/instance-2692",
+    "metadata": {
+      "request_id": "req-06b919aa",
+      "user_id": "usr-2468",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 2775.56,
+      "tags": [
+        "auth",
+        "payment"
+      ]
+    },
+    "message": "Operation retrying for prod environment."
+  },
+  {
+    "id": "476cf68c-3f1b-40d0-b514-105831383975",
+    "timestamp": "2025-12-27T10:03:01.313925+00:00",
+    "service": "data-pipeline",
+    "env": "staging",
+    "type": "payment",
+    "status": "failed",
+    "severity": 3,
+    "source": "eu-central-1/instance-5735",
+    "metadata": {
+      "request_id": "req-b4746349",
+      "user_id": "usr-4396",
+      "region": "ap-northeast-1",
+      "retry_count": 2,
+      "latency_ms": 2404.22,
+      "tags": [
+        "batch",
+        "edge"
+      ]
+    },
+    "message": "Operation retrying for staging environment."
+  },
+  {
+    "id": "e6b0da0a-b98f-4dbe-95ae-de0fc777a07f",
+    "timestamp": "2025-12-27T10:28:21.314356+00:00",
+    "service": "payment-service",
+    "env": "prod",
+    "type": "job",
+    "status": "success",
+    "severity": 3,
+    "source": "us-west-2/instance-7237",
+    "metadata": {
+      "request_id": "req-2b64777c",
+      "user_id": "usr-3274",
+      "region": "eu-central-1",
+      "retry_count": 0,
+      "latency_ms": 1512.65,
+      "tags": [
+        "critical",
+        "edge"
+      ]
+    },
+    "message": "Operation failed for prod environment."
+  },
+  {
+    "id": "beb79919-3f22-4af8-a3be-d01d43cf2fde",
+    "timestamp": "2025-12-27T11:00:22.311897+00:00",
+    "service": "notification-service",
+    "env": "staging",
+    "type": "system",
+    "status": "success",
+    "severity": 4,
+    "source": "ap-northeast-1/instance-7543",
+    "metadata": {
+      "request_id": "req-5cabcc97",
+      "user_id": "usr-4593",
+      "region": "us-west-2",
+      "retry_count": 0,
+      "latency_ms": 2552.54,
+      "tags": [
+        "critical",
+        "edge",
+        "payment"
+      ]
+    },
+    "message": "Operation completed for staging environment."
+  }
+]

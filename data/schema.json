@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "service": {
+      "type": "string"
+    },
+    "env": {
+      "type": "string",
+      "enum": [
+        "prod",
+        "staging",
+        "dev"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "auth",
+        "payment",
+        "system",
+        "network",
+        "job"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "success",
+        "failed",
+        "warning"
+      ]
+    },
+    "severity": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "source": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "request_id": {
+          "type": "string"
+        },
+        "user_id": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "retry_count": {
+          "type": "integer"
+        },
+        "latency_ms": {
+          "type": "number"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "request_id",
+        "user_id",
+        "region",
+        "retry_count",
+        "latency_ms",
+        "tags"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "timestamp",
+    "service",
+    "env",
+    "type",
+    "status",
+    "severity",
+    "source",
+    "metadata",
+    "message"
+  ]
+}
