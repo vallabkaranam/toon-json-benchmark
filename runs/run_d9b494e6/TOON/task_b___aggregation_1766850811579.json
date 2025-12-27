@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-12-27T15:53:31.579004+00:00",
+  "run_id": "run_d9b494e6",
+  "task_name": "Task B - Aggregation",
+  "format": "TOON",
+  "model": "mock-model",
+  "usage": {
+    "input_tokens": 405,
+    "output_tokens": 12,
+    "total_tokens": 417
+  },
+  "raw_output": "[MOCK_OUTPUT] Processed input length 1439 chars."
+}

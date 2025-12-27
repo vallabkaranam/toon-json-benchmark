@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-12-27T15:53:31.579227+00:00",
+  "run_id": "run_d9b494e6",
+  "task_name": "Task C - Transformation",
+  "format": "TOON",
+  "model": "mock-model",
+  "usage": {
+    "input_tokens": 413,
+    "output_tokens": 12,
+    "total_tokens": 425
+  },
+  "raw_output": "[MOCK_OUTPUT] Processed input length 1470 chars."
+}
