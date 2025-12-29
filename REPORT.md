@@ -99,6 +99,13 @@ Rather than claiming general performance improvements, the results highlight how
 * **Figures**: Visualizations (`results/figures/`) are rendered directly from the CSV outputs.
 * **Source**: All facts are derived deterministically from experiment artifacts (`results/summary.csv`, `results/failure_breakdown.csv`).
 
+### Figure Captions
+
+* **Figure 1: Token Usage Comparison** (`results/figures/token_usage.png`): Displays the mean total token count per task, comparing JSON and TOON formats side-by-side.
+* **Figure 2: Cost Proxy Comparison** (`results/figures/cost_comparison.png`): Shows the mean estimated cost per task execution for each representation format.
+* **Figure 3: Correctness Rate** (`results/figures/correctness_rate.png`): Illustrates the proportion of correct runs (0.0 to 1.0) for each task and format.
+* **Figure 4: Failure Breakdown** (`results/figures/failure_breakdown.png`): Depicts the count of specific failure categories encountered, organized by task and representation format.
+
 ## 7. Limitations
 
 This study intentionally avoids overgeneralization.
