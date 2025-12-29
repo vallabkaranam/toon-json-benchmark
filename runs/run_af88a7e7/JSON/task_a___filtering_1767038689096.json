@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-12-29T20:04:49.096937+00:00",
+  "run_id": "run_af88a7e7",
+  "task_name": "Task A - Filtering",
+  "format": "JSON",
+  "model": "mock-model",
+  "usage": {
+    "input_tokens": 1462,
+    "output_tokens": 12,
+    "total_tokens": 1474
+  },
+  "raw_output": "[MOCK_OUTPUT] Processed input length 5665 chars."
+}

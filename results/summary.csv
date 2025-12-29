@@ -1,0 +1,7 @@
+task,format,mean_input_tokens,mean_output_tokens,mean_total_tokens,mean_estimated_cost,correctness_rate,error_rate
+Task A - Filtering,JSON,1462.0,12.0,1474.0,0.000227,0.0,1.0
+Task A - Filtering,TOON,704.0,12.0,716.0,0.000113,0.0,1.0
+Task B - Aggregation,JSON,1460.0,12.0,1472.0,0.000226,0.0,1.0
+Task B - Aggregation,TOON,703.0,12.0,715.0,0.000113,0.0,1.0
+Task C - Transformation,JSON,1468.0,12.0,1480.0,0.000227,0.0,1.0
+Task C - Transformation,TOON,710.0,12.0,722.0,0.000114,0.0,1.0

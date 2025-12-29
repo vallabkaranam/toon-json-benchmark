@@ -1,0 +1,17 @@
+{
+  "run_id": "run_af88a7e7",
+  "timestamp": "2025-12-29T12:04:49.096037",
+  "dataset_size": 10,
+  "seed": 42,
+  "number_of_iterations": 1,
+  "model": "mock-model",
+  "formats_evaluated": [
+    "JSON",
+    "TOON"
+  ],
+  "tasks_evaluated": [
+    "Task A - Filtering",
+    "Task B - Aggregation",
+    "Task C - Transformation"
+  ]
+}

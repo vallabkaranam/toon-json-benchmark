@@ -1,0 +1,7 @@
+run_id,task,format,input_tokens,output_tokens,total_tokens,estimated_cost,is_correct,error_types
+run_af88a7e7,Task A - Filtering,JSON,1462,12,1474,0.0002265,False,parse_error: JSON decode failed: Expecting value: line 1 column 2 (char 1)
+run_af88a7e7,Task A - Filtering,TOON,704,12,716,0.0001128,False,parse_error: TOON decode failed: Invalid collection header: [MOCK_OUTPUT] Processed input length 2634 chars.
+run_af88a7e7,Task B - Aggregation,JSON,1460,12,1472,0.0002262,False,parse_error: JSON decode failed: Expecting value: line 1 column 2 (char 1)
+run_af88a7e7,Task B - Aggregation,TOON,703,12,715,0.00011265,False,parse_error: TOON decode failed: Invalid collection header: [MOCK_OUTPUT] Processed input length 2628 chars.
+run_af88a7e7,Task C - Transformation,JSON,1468,12,1480,0.0002274,False,parse_error: JSON decode failed: Expecting value: line 1 column 2 (char 1)
+run_af88a7e7,Task C - Transformation,TOON,710,12,722,0.0001137,False,parse_error: TOON decode failed: Invalid collection header: [MOCK_OUTPUT] Processed input length 2659 chars.

@@ -1,0 +1,7 @@
+task,format,failure_type,count
+Task A - Filtering,JSON,parse_error,1
+Task A - Filtering,TOON,parse_error,1
+Task B - Aggregation,JSON,parse_error,1
+Task B - Aggregation,TOON,parse_error,1
+Task C - Transformation,JSON,parse_error,1
+Task C - Transformation,TOON,parse_error,1
