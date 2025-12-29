@@ -89,9 +89,15 @@ The evaluation produces:
 * Correctness rates per representation
 * Failure type distributions
 
-These results are exported as CSV files and rendered as figures, enabling transparent inspection and reuse.
+These results are exported as CSV files and rendered as figures, enabling transparent inspection and reuse. As shown in the empirical summary (see `docs/EMPIRICAL_FACTS.md`), the data captures exact token counts and failure rates for each run.
 
-Rather than claiming general performance improvements, the results highlight how different representations exhibit different trade-offs across efficiency and failure behavior.
+Rather than claiming general performance improvements, the results highlight how different representations exhibit different trade-offs across efficiency and failure behavior, as detailed in the extracted results.
+
+### Empirical Reference
+
+* **Fact Sheet**: Numerical values for all runs are listed in `docs/EMPIRICAL_FACTS.md`.
+* **Figures**: Visualizations (`results/figures/`) are rendered directly from the CSV outputs.
+* **Source**: All facts are derived deterministically from experiment artifacts (`results/summary.csv`, `results/failure_breakdown.csv`).
 
 ## 7. Limitations
 
